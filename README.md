@@ -12,12 +12,12 @@ With the prevalence of depression and isolation in the deaf community, largely d
 
 ## 🧱 Software Architecture
 
-The software system was structured into three main components:
+The software system was structured into three main components -
 
 ### 1. **Data Processing**
 - Scripts - `load_data.py`, `process_data.py`
 - Tasks - Load raw images, resize, apply filters, ZCA whitening
-- Output - Preprocessed datasets split into training, validation, and test sets
+- Output - Preprocessed datasets split into training, validation and test sets
 
 ### 2. **Training**
 - Script - `train_model.py`
