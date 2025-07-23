@@ -1,7 +1,5 @@
 # 🗽 American Sign Language Detection System
 
----
-
 ## 📖 Introduction
 
 This project aimed to build a Convolutional Neural Network (CNN) model capable of recognizing American Sign Language (ASL) alphabets from hand gesture images. The broader goal is to enable real-time translation of ASL into written or spoken language, reducing communication barriers for the deaf and hard-of-hearing communities.
