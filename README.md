@@ -15,19 +15,16 @@ With the prevalence of depression and isolation in the deaf community, largely d
 The software system was structured into three main components -
 
 ### 1. **Data Processing**
-- Scripts - `load_data.py`, `process_data.py`
 - Tasks - Load raw images, resize, apply filters, ZCA whitening
 - Output - Preprocessed datasets split into training, validation and test sets
 
 ### 2. **Training**
-- Script - `train_model.py`
 - Framework - PyTorch
 - Features - Uses config file to define hyperparameters (learning rate, epochs, etc.)
 - Optimizer - Adam (with CrossEntropy Loss)
 - Output - Best model checkpoints, training/validation plots
 
 ### 3. **Classify Gesture**
-- Script - `test_data.py`
 - Loads a new image and runs it through the same preprocessing and trained model to classify the ASL letter
 
 ---
@@ -107,4 +104,4 @@ The software system was structured into three main components -
 
 ## 🧾 Conclusion
 
-This project was a comprehensive exercise in end-to-end machine learning - from data preprocessing, model design and tuning to evaluation. The solution is a step forward in making sign language recognition more accessible and practical using everyday hardware. It also offered deep insights into CNN behavior, optimization strategies and responsible AI design.
+This project was a comprehensive exercise in end-to-end machine learning, from data preprocessing, model design and tuning to evaluation. The solution is a step forward in making sign language recognition more accessible and practical using everyday hardware. It also offered deep insights into CNN behavior, optimization strategies and responsible AI design.
