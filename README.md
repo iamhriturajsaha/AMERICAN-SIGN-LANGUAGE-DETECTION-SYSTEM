@@ -1,4 +1,4 @@
-# 🗽American Sign Language Detection System
+# 🇺🇸American Sign Language Detection System
 
 ## 📖 Introduction
 
